@@ -1,3 +1,11 @@
 {
-	"gallery": []
+	"gallery": [],
+	"3d": [
+		{
+			"name": "t"
+		},
+		{
+			"name": "Gallery"
+		}
+	]
 }
