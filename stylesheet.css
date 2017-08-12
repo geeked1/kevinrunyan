@@ -31,15 +31,12 @@ li a, .dropbtn {
     padding: 2px 16px;
     text-decoration: none;
 }
-
 li a:hover, .dropdown:hover .dropbtn {
     background-color: #57499d;
 }
-
 li.dropdown {
     display: inline-block;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -47,7 +44,6 @@ li.dropdown {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
-
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -55,11 +51,9 @@ li.dropdown {
     display: block;
     text-align: left;
 }
-
 .dropdown-content a:hover {
 	background-color: #57499d;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -91,7 +85,6 @@ h1 {
 	padding-left: 5%;
 	padding-right: 2%;
 }
-
 .category {
 	margin: 0 2.5% 0 2.5%;
 	width: 95%;
@@ -103,7 +96,6 @@ div.gallery {
     float: left;
 	width: 20%;
 }
-
 #bottle {
 	 clear: both;
 }
@@ -118,7 +110,6 @@ div.desc {
     padding: 5px;
     text-align: center;
 }
-
 .lightbox {
 	/** Default lightbox to hidden */
 	display: none;
@@ -145,6 +136,10 @@ div.desc {
 
 	/** Unhide lightbox **/
 	display: block;
+}
+.animation{
+	display: inherit;
+	padding: 2%
 }
 footer {
 	margin:auto;
