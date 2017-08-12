@@ -138,7 +138,7 @@ div.desc {
 	display: block;
 }
 .animation{
-	display: inherit;
+	display: inline-block;
 	padding: 2%
 }
 footer {
