@@ -57,11 +57,15 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 article {
 	width: 100%;
 	display: inline-block;
 	padding-bottom: 2%;
 	text-align: center;
+}
+.hide-full{
+	display: none;
 }
 h1 {
 	color: #57499d;
@@ -85,6 +89,7 @@ h1 {
 	margin: 0 2.5% 0 2.5%;
 	width: 95%;
 }
+
 div.gallery {
 	margin-top: 5%;
  	margin-left: 2.5%;
@@ -160,3 +165,43 @@ footer p{
 }
 
 
+
+@media (max-width: 768px){
+	
+	header{
+		background: url(images/mobilebanner.jpg) center center no-repeat;
+		width: 100%;
+		background-size: contain;
+		background-color: #E0DEDE;
+		padding-bottom: 30%;
+	
+	}
+	.nav  {
+		list-style: none;
+		margin: 0;
+    	padding-left: 0%;
+		padding-top: 15%;
+    	overflow: hidden;
+	}
+	.nav li {
+		float: left;
+		padding-left:2%;
+	}
+	.hide-mobile{
+		display: none;
+	}
+	.hide-full{
+		display: inline-block;
+	}
+	#about #head{
+		clear: both;
+		float: none;
+	}
+	div.gallery{
+		margin-top: 5%;
+ 		margin-left: 2.5%;
+    	border: 1px solid #ccc;
+    	width: 95%;
+	}
+	
+}
